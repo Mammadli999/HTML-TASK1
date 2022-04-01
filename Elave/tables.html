@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables and Forms</title>
+    <style>
+      table th,
+      table td {
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+      }
+      table {
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <!-- thead - table head -->
+      <thead>
+        <!-- tr - table row -->
+        <tr>
+          <th>ID</th>
+          <th colspan="2">Fullname</th>
+          <th>Birthdate</th>
+        </tr>
+      </thead>
+      <!-- tbody - table body -->
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td colspan="2">Abbas Mammadli</td>
+          <td>11.11.1999</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">9:00</th>
+          <td rowspan="3">
+            Math
+            <br />
+            Calculus <br />
+            Linear Algebra
+          </td>
+          <td>Calculus</td>
+          <td>Programming Culture</td>
+          <td>Linear Algebra</td>
+          <td>History</td>
+        </tr>
+        <tr>
+          <th scope="row">10:00</th>
+          <!-- <td>Calculus</td> -->
+          <td>Math</td>
+          <td>Linear Algebra</td>
+          <td>History</td>
+          <td>Programming Culture</td>
+        </tr>
+        <tr>
+          <th scope="row">11:00</th>
+          <!-- <td>Linear Algebra</td> -->
+          <td>Programming Culture</td>
+          <td>Calculus</td>
+          <td>History</td>
+          <td>Math</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
