@@ -1,0 +1,31 @@
+.inputB {
+  width: 361px;
+  height: 45px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(69, 155, 118);
+  color: white;
+  font-size: 18px;
+  transition: 0.4s;
+}
+.inputB:hover {
+  background-color: rgb(99, 226, 171);
+}
+.center {
+  margin: auto;
+  padding: 10px;
+  width: 390px;
+}
+.inputs {
+  width: 350px;
+  height: 35px;
+}
+.inputlink {
+  color: rgb(63, 98, 246);
+  text-decoration: none;
+  font-weight: bold;
+}
+.text {
+  text-align: center;
+}

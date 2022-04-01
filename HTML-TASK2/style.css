@@ -1,0 +1,36 @@
+table th,
+table td {
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 4px;
+}
+table {
+  border-collapse: collapse;
+}
+.color1 {
+  background-color: rgb(114, 169, 67);
+  color: white;
+  text-align: left;
+}
+.color2 {
+  background-color: rgb(198, 222, 179);
+}
+.color3 {
+  background-color: rgb(226, 238, 218);
+}
+.columb1 {
+  width: 150px;
+}
+.columb2 {
+  width: 98px;
+}
+.columb3 {
+  width: 155px;
+}
+.columb4 {
+  width: 115px;
+}
+.align {
+  text-align: right;
+}
